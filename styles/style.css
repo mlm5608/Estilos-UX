@@ -10,10 +10,25 @@ body{
 header{
     background-color: grey;
 }   
+header .header-flex{
+display: flex;
+justify-content: space-between;
+}
 
 header h1 {
     color: white;
     font-family: 'Titillium Web', sans-serif;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
 }
 
 header h1 #logoux{
